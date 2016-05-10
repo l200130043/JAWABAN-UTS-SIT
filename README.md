@@ -1,1 +1,2 @@
 # SIT
+Sistem Informasi Terdistribusi
