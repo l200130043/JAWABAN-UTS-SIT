@@ -1,5 +1,5 @@
-Imam Fitri Irianto
-L200130028
+Gilang Arif Prakoso
+L200130043
 
 # Sistim-Informasi-Terdistribusi
 TUGAS (Soal UTS)
@@ -109,13 +109,13 @@ require_once "lib/nusoap.php";
 			
 			
 			$profile = array(
-					"nama" => "Dyah",
-					"nim" => "L200130035",
-					"alamat" => "Salatiga",
-					"ipk" => 3,25
+					"nama" => "Gilang",
+					"nim" => "L200130043",
+					"alamat" => "Solo",
+					"ipk" => 3,6
 			);
 
-			//$profile["nama"]   ... output = "Dyah" 
+			//$profile["nama"]   ... output = "Gilang" 
 			
 			
 			$output = json_encode( $profile );  //konversi array assc -> json string
