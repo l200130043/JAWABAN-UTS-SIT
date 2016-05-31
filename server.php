@@ -2,8 +2,8 @@
 require_once "lib/nusoap.php";
 function getInfo($name){
   //provide information details
-	$data['ferry']['nama'] = 'Ferry';
-	$data['ferry']['nim'] = 'L200130083';
+	$data['gilang']['nama'] = 'Gilang';
+	$data['gilang']['nim'] = 'L200130043';
 	if (isset($data[$name])){
 		return json_encode($data[$name]);
 	}else{
